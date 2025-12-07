@@ -34,31 +34,48 @@ const Index = () => {
       {/* Hero Section */}
       <section className="section-padding">
         <div className="container-narrow">
-          <div className="max-w-3xl space-y-8">
-            <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-[1.1] opacity-0 animate-fade-up">
-              Build smarter.
-              <br />
-              Scale faster.
-            </h1>
-            <p
-              className="text-lg md:text-xl text-muted-foreground max-w-xl opacity-0 animate-fade-up"
-              style={{ animationDelay: "100ms" }}
-            >
-              Clean tech solutions for businesses that want speed over noise.
-            </p>
-            <div
-              className="flex flex-col sm:flex-row gap-4 opacity-0 animate-fade-up"
-              style={{ animationDelay: "200ms" }}
-            >
-              <Button asChild size="lg" className="group">
-                <Link to="/contact">
-                  Get Started
-                  <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-                </Link>
-              </Button>
-              <Button asChild variant="outline" size="lg">
-                <Link to="/projects">View Projects</Link>
-              </Button>
+          <div className="md:grid md:grid-cols-2 md:items-center md:gap-8">
+            <div className="space-y-8 max-w-3xl">
+              <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-[1.1] opacity-0 animate-fade-up">
+                Build smarter.
+                <br />
+                Scale faster.
+              </h1>
+              <p
+                className="text-lg md:text-xl text-muted-foreground max-w-xl opacity-0 animate-fade-up"
+                style={{ animationDelay: "100ms" }}
+              >
+                Clean tech solutions for businesses that want speed over noise.
+              </p>
+              <div
+                className="flex flex-col sm:flex-row gap-4 opacity-0 animate-fade-up"
+                style={{ animationDelay: "200ms" }}
+              >
+                <Button asChild size="lg" className="group">
+                  <Link to="/contact">
+                    Get Started
+                    <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
+                  </Link>
+                </Button>
+                <Button asChild variant="outline" size="lg">
+                  <Link to="/projects">View Projects</Link>
+                </Button>
+              </div>
+            </div>
+
+            {/* Owner avatar near hero text (right column on md+) */}
+            <div className="mt-6 md:mt-0 flex items-start md:justify-center">
+              <div className="flex flex-col items-center text-center">
+                <div className="w-28 h-28 rounded-full overflow-hidden border border-border shadow-sm">
+                  <img
+                    src="/owner.svg"
+                    alt="Company owner"
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                <p className="mt-3 text-sm font-medium">Maximilien Niyibizi</p>
+                <p className="text-xs text-muted-foreground">Founder & CEO</p>
+              </div>
             </div>
           </div>
         </div>
