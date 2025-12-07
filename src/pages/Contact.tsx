@@ -149,7 +149,7 @@ const Contact = () => {
 
                   <a
                     href="https://wa.me/250794411286"
-                    target="_blank"
+                    target="I liked how you work, so i want to join your team if it is possible"
                     rel="noopener noreferrer"
                     className="flex items-center gap-4 p-4 border border-border rounded-lg hover:bg-secondary/50 transition-colors"
                   >
