@@ -122,7 +122,7 @@ const Contact = () => {
                 <h3 className="text-xl font-semibold mb-6">Other ways to reach us</h3>
                 <div className="space-y-4">
                   <a
-                    href="mailto:hello@nebulacore.io"
+                    href="niyibizimaximilien@gmail.com"
                     className="flex items-center gap-4 p-4 border border-border rounded-lg hover:bg-secondary/50 transition-colors"
                   >
                     <div className="w-10 h-10 rounded-full bg-foreground text-background flex items-center justify-center">
@@ -130,12 +130,12 @@ const Contact = () => {
                     </div>
                     <div>
                       <p className="font-medium">Email</p>
-                      <p className="text-sm text-muted-foreground">hello@nebulacore.io</p>
+                      <p className="text-sm text-muted-foreground">niyibizimaximilien@gmail.com</p>
                     </div>
                   </a>
 
                   <a
-                    href="tel:+2348000000000"
+                    href="tel:+250794411286"
                     className="flex items-center gap-4 p-4 border border-border rounded-lg hover:bg-secondary/50 transition-colors"
                   >
                     <div className="w-10 h-10 rounded-full bg-foreground text-background flex items-center justify-center">
@@ -143,12 +143,12 @@ const Contact = () => {
                     </div>
                     <div>
                       <p className="font-medium">Phone</p>
-                      <p className="text-sm text-muted-foreground">+234 800 000 0000</p>
+                      <p className="text-sm text-muted-foreground">+250794411286</p>
                     </div>
                   </a>
 
                   <a
-                    href="https://wa.me/2348000000000"
+                    href="https://wa.me/250794411286"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="flex items-center gap-4 p-4 border border-border rounded-lg hover:bg-secondary/50 transition-colors"
