@@ -7,6 +7,7 @@ const navLinks = [
   { name: "About", path: "/about" },
   { name: "Services", path: "/services" },
   { name: "Projects", path: "/projects" },
+  { name: "Team", path: "/team" },
   { name: "Contact", path: "/contact" },
 ];
 
@@ -23,7 +24,9 @@ const Navbar = () => {
             <div className="w-8 h-8 rounded-full border-2 border-foreground relative">
               <div className="absolute inset-0 w-[2px] h-full bg-foreground rotate-45 left-1/2 -translate-x-1/2" />
             </div>
-            <span className="font-syne font-bold text-lg tracking-tight">NebulaCore</span>
+            <span className="font-syne font-bold text-lg tracking-tight">
+              NebulaCore
+            </span>
           </Link>
 
           {/* Desktop Navigation */}
