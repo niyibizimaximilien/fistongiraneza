@@ -16,7 +16,7 @@ const About = () => {
             </h1>
             <p className="text-lg text-muted-foreground leading-relaxed opacity-0 animate-fade-up" style={{ animationDelay: "100ms" }}>
               NebulaCore is a modern tech studio focused on crafting simple, efficient digital 
-              solutions. We cut the noise and deliver products that just work — fast, responsive, 
+              solutions. We cut the noise and deliver products that just work fast, responsive, 
               and scalable. No clutter, no over-engineered features, just clean tech for everyday 
               business needs.
             </p>
@@ -64,7 +64,7 @@ const About = () => {
                 the opposite approach. Every line of code we write serves a purpose.
               </p>
               <p>
-                Minimal doesn't mean lacking — it means focused. It means faster load times, 
+                Minimal doesn't mean lacking it means focused. It means faster load times, 
                 easier maintenance, lower costs, and better user experiences.
               </p>
               <p>

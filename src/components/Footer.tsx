@@ -39,8 +39,8 @@ const Footer = () => {
           <div className="space-y-4">
             <h4 className="text-sm font-semibold">Get in Touch</h4>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              <li>hello@nebulacore.io</li>
-              <li>+234 800 000 0000</li>
+              <li>niyibizimaximilien@gmail.com</li>
+              <li>+250794411286</li>
             </ul>
           </div>
         </div>
