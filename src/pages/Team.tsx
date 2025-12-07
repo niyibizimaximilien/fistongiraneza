@@ -1,17 +1,18 @@
-import { ArrowRight } from "lucide-react";
+import { ArrowRight, Github, Linkedin } from "lucide-react";
 import Layout from "@/components/Layout";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import avatarMax from "@/assets/avatar-max.png";
+import founderAvatar from "@/assets/founder-avatar.png";
 import avatarAisha from "@/assets/avatar-aisha.png";
 import avatarDiego from "@/assets/avatar-diego.png";
+import FloatingShapes from "@/components/FloatingShapes";
 
 const team = [
   {
     name: "Maximilien Niyibizi",
     role: "Founder & CEO",
     bio: "Building products that scale — technical lead and founder.",
-    avatar: avatarMax,
+    avatar: founderAvatar,
     codes: {
       github: "https://github.com/niyibizimaximilien",
       linkedin: "#",
@@ -36,63 +37,70 @@ const team = [
 const Team = () => {
   return (
     <Layout>
-      <section className="section-padding">
-        <div className="container-narrow">
-          <div className="mb-8">
-            <p className="text-sm font-medium text-muted-foreground mb-2">
+      <section className="section-padding relative overflow-hidden">
+        <FloatingShapes />
+        <div className="container-narrow relative z-10">
+          <div className="mb-12 text-center">
+            <p className="text-sm font-medium text-muted-foreground mb-2 tracking-wider uppercase">
               Our Team
             </p>
-            <h1 className="text-3xl md:text-4xl font-bold">
+            <h1 className="text-3xl md:text-5xl font-bold">
               People who build NebulaCore
             </h1>
           </div>
 
-          <div className="grid md:grid-cols-3 gap-6">
-            {team.map((member) => (
+          <div className="grid md:grid-cols-3 gap-8">
+            {team.map((member, index) => (
               <div
                 key={member.name}
-                className="p-6 bg-background border border-border rounded-lg"
+                className="group p-8 bg-background border border-border rounded-2xl hover-lift hover-glow opacity-0 animate-fade-up"
+                style={{ animationDelay: `${index * 100}ms` }}
               >
-                <div className="flex items-center gap-4 mb-4">
-                  <div className="w-16 h-16 rounded-full overflow-hidden bg-muted flex items-center justify-center">
+                {/* Avatar with hover effect */}
+                <div className="relative mb-6">
+                  <div className="absolute -inset-2 bg-gradient-to-r from-muted via-transparent to-muted rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
+                  <div className="relative w-24 h-24 mx-auto rounded-full overflow-hidden border-2 border-border group-hover:scale-105 transition-transform duration-300">
                     <img
                       src={member.avatar}
                       alt={`${member.name} avatar`}
                       className="w-full h-full object-cover"
                     />
                   </div>
-                  <div>
-                    <h3 className="text-lg font-semibold">{member.name}</h3>
-                    <p className="text-sm text-muted-foreground">
-                      {member.role}
-                    </p>
-                  </div>
                 </div>
 
-                <p className="text-sm text-muted-foreground mb-4">
+                {/* Info */}
+                <div className="text-center mb-6">
+                  <h3 className="text-xl font-semibold mb-1">{member.name}</h3>
+                  <p className="text-sm text-muted-foreground font-medium">
+                    {member.role}
+                  </p>
+                </div>
+
+                <p className="text-sm text-muted-foreground text-center mb-6">
                   {member.bio}
                 </p>
 
-                <div className="flex items-center gap-3">
+                {/* Social & Action */}
+                <div className="flex items-center justify-center gap-3">
                   <a
                     href={member.codes.github}
                     target="_blank"
                     rel="noreferrer"
-                    className="text-sm text-muted-foreground hover:text-foreground"
+                    className="p-2 rounded-full border border-border hover:bg-muted transition-colors"
                   >
-                    GitHub
+                    <Github className="w-4 h-4" />
                   </a>
                   <a
                     href={member.codes.linkedin}
                     target="_blank"
                     rel="noreferrer"
-                    className="text-sm text-muted-foreground hover:text-foreground"
+                    className="p-2 rounded-full border border-border hover:bg-muted transition-colors"
                   >
-                    LinkedIn
+                    <Linkedin className="w-4 h-4" />
                   </a>
-                  <Button asChild size="sm" variant="ghost" className="ml-auto">
+                  <Button asChild size="sm" variant="outline" className="ml-2">
                     <Link to="/contact">
-                      Contact <ArrowRight className="ml-2 h-4 w-4" />
+                      Contact <ArrowRight className="ml-1 h-3 w-3" />
                     </Link>
                   </Button>
                 </div>
