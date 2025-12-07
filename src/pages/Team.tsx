@@ -2,12 +2,16 @@ import { ArrowRight } from "lucide-react";
 import Layout from "@/components/Layout";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
+import avatarMax from "@/assets/avatar-max.png";
+import avatarAisha from "@/assets/avatar-aisha.png";
+import avatarDiego from "@/assets/avatar-diego.png";
 
 const team = [
   {
     name: "Maximilien Niyibizi",
     role: "Founder & CEO",
     bio: "Building products that scale — technical lead and founder.",
+    avatar: avatarMax,
     codes: {
       github: "https://github.com/niyibizimaximilien",
       linkedin: "#",
@@ -17,12 +21,14 @@ const team = [
     name: "Aisha Omari",
     role: "Lead Designer",
     bio: "Design systems, product UX and visual language.",
+    avatar: avatarAisha,
     codes: { github: "#", linkedin: "#" },
   },
   {
     name: "Diego Ramos",
     role: "Senior Engineer",
     bio: "Backend systems, automation, and reliability.",
+    avatar: avatarDiego,
     codes: { github: "#", linkedin: "#" },
   },
 ];
@@ -48,9 +54,9 @@ const Team = () => {
                 className="p-6 bg-background border border-border rounded-lg"
               >
                 <div className="flex items-center gap-4 mb-4">
-                  <div className="w-16 h-16 rounded-full overflow-hidden bg-muted-foreground flex items-center justify-center">
+                  <div className="w-16 h-16 rounded-full overflow-hidden bg-muted flex items-center justify-center">
                     <img
-                      src="/owner.svg"
+                      src={member.avatar}
                       alt={`${member.name} avatar`}
                       className="w-full h-full object-cover"
                     />
