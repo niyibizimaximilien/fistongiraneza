@@ -165,3 +165,6 @@ CREATE TRIGGER update_projects_updated_at
 CREATE TRIGGER update_team_members_updated_at
   BEFORE UPDATE ON public.team_members
   FOR EACH ROW EXECUTE FUNCTION public.update_updated_at_column();
+
+
+INSERT INTO user_roles (user_id, role) VALUES ('a92ae7e4-9619-40b1-a20f-87cb41d06bc6', 'admin');
