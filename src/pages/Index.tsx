@@ -43,7 +43,7 @@ const Index = () => {
               <div 
                 className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-border bg-background/80 backdrop-blur-sm opacity-0 animate-fade-up"
               >
-                <Sparkles className="w-4 h-4" />
+                <Sparkles className="w-4 h-4 text-mint-700" />
                 <span className="text-sm font-medium">Clean Tech Studio</span>
               </div>
 
@@ -51,7 +51,7 @@ const Index = () => {
                 Build smarter.
                 <br />
                 <span className="relative">
-                  Scale faster.
+                  <span className="gradient-mint-text">Scale faster.</span>
                   <svg className="absolute -bottom-2 left-0 w-full" viewBox="0 0 300 12" fill="none">
                     <path d="M2 10C50 4 150 2 298 6" stroke="currentColor" strokeWidth="3" strokeLinecap="round" className="opacity-20" />
                   </svg>
@@ -67,7 +67,7 @@ const Index = () => {
                 className="flex flex-col sm:flex-row gap-4 opacity-0 animate-fade-up"
                 style={{ animationDelay: "300ms" }}
               >
-                <Button asChild size="lg" className="group">
+                <Button asChild size="lg" variant="mint" className="group">
                   <Link to="/contact">
                     Get Started
                     <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
@@ -125,20 +125,13 @@ const Index = () => {
                 className="group p-6 bg-background border border-border rounded-xl hover-lift hover-glow opacity-0 animate-fade-up cursor-pointer"
                 style={{ animationDelay: `${index * 100 + 300}ms` }}
               >
-                <div className="w-12 h-12 rounded-xl bg-muted flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                <div className="w-12 h-12 rounded-xl bg-mint-50 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
                   <service.icon
-                    className="h-6 w-6 text-foreground"
+                    className="h-6 w-6 text-mint-700"
                     strokeWidth={1.5}
                   />
                 </div>
-                <h3 className="text-lg font-semibold mb-2">{service.title}</h3>
-                <p className="text-sm text-muted-foreground">
-                  {service.description}
-                </p>
-              </div>
-            ))}
-          </div>
-
+                <h3 className="text-lg font-semibold mb-2 text-mint-700">{service.title}</h3>
           <div className="mt-10 text-center">
             <Link
               to="/services"

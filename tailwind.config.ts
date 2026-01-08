@@ -61,6 +61,13 @@ export default {
           border: "hsl(var(--sidebar-border))",
           ring: "hsl(var(--sidebar-ring))",
         },
+        // Custom mint palette (used across the site)
+        mint: {
+          50: "#F0FFFD",
+          200: "#A2ECA2",
+          700: "#086039",
+          900: "#033000",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",

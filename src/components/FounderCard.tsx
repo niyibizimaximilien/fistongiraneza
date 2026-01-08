@@ -5,7 +5,7 @@ const FounderCard = () => {
   return (
     <div className="relative group">
       {/* Decorative elements */}
-      <div className="absolute -inset-4 bg-gradient-to-r from-muted/50 via-transparent to-muted/50 rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-xl" />
+      <div className="absolute -inset-4 bg-gradient-to-r from-mint-50/60 via-transparent to-mint-200/40 rounded-3xl opacity-0 group-hover:opacity-100 transition-opacity duration-500 blur-xl" />
       
       <div className="relative glass-effect rounded-2xl p-8 md:p-10 hover-glow">
         <div className="flex flex-col md:flex-row items-center gap-8">
@@ -21,7 +21,7 @@ const FounderCard = () => {
               />
             </div>
             {/* Status dot */}
-            <div className="absolute bottom-2 right-2 w-5 h-5 bg-green-500 rounded-full border-4 border-background z-20" />
+            <div className="absolute bottom-2 right-2 w-5 h-5 bg-mint-200 rounded-full border-4 border-background z-20" />
           </div>
 
           {/* Info */}
@@ -30,7 +30,7 @@ const FounderCard = () => {
               <p className="text-sm font-medium text-muted-foreground tracking-wider uppercase mb-1">
                 Founder & CEO
               </p>
-              <h3 className="text-2xl md:text-3xl font-bold">Maximilien Niyibizi</h3>
+              <h3 className="text-2xl md:text-3xl font-bold text-mint-700">Maximilien Niyibizi</h3>
             </div>
             
             <p className="text-muted-foreground leading-relaxed max-w-md">
@@ -60,9 +60,9 @@ const FounderCard = () => {
                 href="https://github.com/niyibizimaximilien" 
                 target="_blank" 
                 rel="noreferrer"
-                className="p-3 rounded-full border border-border hover:bg-muted transition-colors group/link"
+                className="p-3 rounded-full border border-border hover:bg-mint-50 transition-colors group/link"
               >
-                <Github className="w-5 h-5 group-hover/link:scale-110 transition-transform" />
+                <Github className="w-5 h-5 group-hover/link:scale-110 transition-transform group-hover:text-mint-700" />
               </a>
               <a 
                 href="#" 

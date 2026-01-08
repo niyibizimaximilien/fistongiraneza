@@ -22,10 +22,10 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 group">
-            <div className="w-8 h-8 rounded-full border-2 border-foreground relative">
-              <div className="absolute inset-0 w-[2px] h-full bg-foreground rotate-45 left-1/2 -translate-x-1/2" />
+            <div className="w-8 h-8 rounded-full border-2 border-mint-700 relative">
+              <div className="absolute inset-0 w-[2px] h-full bg-mint-700 rotate-45 left-1/2 -translate-x-1/2" />
             </div>
-            <span className="font-syne font-bold text-lg tracking-tight">
+            <span className="font-syne font-bold text-lg tracking-tight text-mint-700">
               NebulaCore
             </span>
           </Link>
@@ -38,15 +38,8 @@ const Navbar = () => {
                   to={link.path}
                   className={`text-sm font-medium transition-colors link-underline ${
                     location.pathname === link.path
-                      ? "text-foreground"
-                      : "text-muted-foreground hover:text-foreground"
-                  }`}
-                >
-                  {link.name}
-                </Link>
-              </li>
-            ))}
-          </ul>
+                      ? "text-mint-700"
+                      : "text-muted-foreground hover:text-mint-700"
 
           {/* Theme Toggle & Mobile Menu */}
           <div className="flex items-center gap-2">
@@ -63,8 +56,7 @@ const Navbar = () => {
 
         {/* Mobile Navigation */}
         {isOpen && (
-          <div className="md:hidden absolute top-full left-0 right-0 bg-background border-b border-border animate-fade-in">
-            <ul className="container-narrow py-6 space-y-4">
+          <div className="md:hidden absolute top-full left-0 right-0 bg-background border-b border-border animate-fade-in">            <div className="bg-mint-gradient absolute inset-0 opacity-20 pointer-events-none" />            <ul className="container-narrow py-6 space-y-4">
               {navLinks.map((link, index) => (
                 <li
                   key={link.name}
