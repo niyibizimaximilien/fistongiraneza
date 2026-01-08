@@ -2,16 +2,16 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="border-t border-border bg-secondary/50 bg-mint-gradient">
+    <footer className="border-t border-border bg-secondary/50 bg-brand-gradient">
       <div className="container-narrow py-12 md:py-16">
         <div className="grid md:grid-cols-3 gap-10">
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center gap-2">
-              <div className="w-6 h-6 rounded-full border-2 border-mint-700 relative">
-                <div className="absolute inset-0 w-[1.5px] h-full bg-mint-700 rotate-45 left-1/2 -translate-x-1/2" />
+              <div className="w-6 h-6 rounded-full bg-brand-700 flex items-center justify-center">
+                <div className="w-[1px] h-3 bg-white rotate-45" />
               </div>
-              <span className="font-syne font-bold tracking-tight text-mint-700">NebulaCore</span>
+              <span className="font-syne font-bold tracking-tight text-brand-700">NebulaCore</span>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">
               Clean tech solutions for businesses that want speed over noise.

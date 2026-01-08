@@ -68,6 +68,14 @@ export default {
           700: "#086039",
           900: "#033000",
         },
+        // Brand color (primary emphasis)
+        brand: {
+          DEFAULT: "#088099",
+          50: "#E6F7F8",
+          200: "#66BFC6",
+          700: "#066C73",
+          900: "#033F40",
+        },
       },
       borderRadius: {
         lg: "var(--radius)",
