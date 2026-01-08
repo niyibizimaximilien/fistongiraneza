@@ -28,14 +28,13 @@ const FounderCard = () => {
           <div className="flex-1 text-center md:text-left space-y-4">
             <div>
               <p className="text-sm font-medium text-muted-foreground tracking-wider uppercase mb-1">
-                Founder & CEO
+                UI/UX Designer
               </p>
-              <h3 className="text-2xl md:text-3xl font-bold text-brand-700">Maximilien Niyibizi</h3>
+              <h3 className="text-2xl md:text-3xl font-bold text-brand-700">Fiston Giraneza</h3>
             </div>
             
             <p className="text-muted-foreground leading-relaxed max-w-md">
-              Building products that scale — leading product vision and technical direction at NebulaCore. 
-              Passionate about empowering African businesses with accessible technology.
+              I design digital experiences that are clear, useful, and human-centered. My background in industrial design shapes how I think about systems, usability, and visual clarity — turning ideas into thoughtful, user-centered solutions.
             </p>
 
             {/* Stats */}
@@ -71,7 +70,7 @@ const FounderCard = () => {
                 <Linkedin className="w-5 h-5 group-hover/link:scale-110 transition-transform" />
               </a>
               <a 
-                href="mailto:hello@nebulacore.tech" 
+                href="mailto:niyibizimaximilien@gmail.com" 
                 className="p-3 rounded-full border border-border hover:bg-muted transition-colors group/link"
               >
                 <Mail className="w-5 h-5 group-hover/link:scale-110 transition-transform" />

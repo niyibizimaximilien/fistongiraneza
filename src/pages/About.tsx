@@ -9,68 +9,52 @@ const About = () => {
         <div className="container-narrow">
           <div className="max-w-3xl">
             <p className="text-sm font-medium text-c1 mb-4 opacity-0 animate-fade-up">
-              About Us
+              About Me
             </p>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 opacity-0 animate-fade-up gradient-c-text" style={{ animationDelay: "50ms" }}>
-              We believe in the power of simplicity.
+              My name is Fiston Giraneza
             </h1>
             <p className="text-lg text-c4 leading-relaxed opacity-0 animate-fade-up" style={{ animationDelay: "100ms" }}>
-              NebulaCore is a modern tech studio focused on crafting simple, efficient digital 
-              solutions. We cut the noise and deliver products that just work fast, responsive, 
-              and scalable. No clutter, no over-engineered features, just clean tech for everyday 
-              business needs.
+              My name is Fiston Giraneza, a UI/UX designer currently studying Industrial Design at the University of Rwanda, where I began my academic journey in November 2025.
+            </p>
+            <p className="text-lg text-c4 leading-relaxed opacity-0 animate-fade-up" style={{ animationDelay: "150ms" }}>
+              My passion for design comes from understanding how people interact with products — not just how they look, but how they work. Studying industrial design has shaped the way I approach digital experiences: I think in systems, usability, form, and function.
+            </p>
+            <p className="text-lg text-c4 leading-relaxed opacity-0 animate-fade-up" style={{ animationDelay: "200ms" }}>
+              I believe good design should feel natural. If users have to think too hard, something is wrong. My goal is to create interfaces that guide users smoothly, reduce friction, and communicate clearly.
+            </p>
+            <p className="text-lg text-c4 leading-relaxed opacity-0 animate-fade-up" style={{ animationDelay: "250ms" }}>
+              As a growing designer, I’m constantly learning, experimenting, and improving — turning ideas into thoughtful, user-centered solutions.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Mission & Vision */}
+      {/* Design Philosophy */}
       <section className="section-padding bg-secondary/50">
         <div className="container-narrow">
-          <div className="grid md:grid-cols-2 gap-12">
-            <div className="space-y-4 opacity-0 animate-fade-up" style={{ animationDelay: "150ms" }}>
-              <div className="w-12 h-12 rounded-full bg-c1 text-c3 flex items-center justify-center ring-c2">
-                <Target className="h-5 w-5" />
-              </div>
-              <h2 className="text-2xl font-bold text-c1">Our Mission</h2>
-              <p className="text-c4 leading-relaxed">
-                To simplify tech for businesses by delivering clean, efficient digital tools 
-                that empower growth without the complexity.
-              </p>
-            </div>
-
-            <div className="space-y-4 opacity-0 animate-fade-up" style={{ animationDelay: "200ms" }}>
-              <div className="w-12 h-12 rounded-full bg-c1 text-c3 flex items-center justify-center ring-c2">
-                <Eye className="h-5 w-5" />
-              </div>
-              <h2 className="text-2xl font-bold text-c1">Our Vision</h2>
-              <p className="text-c4 leading-relaxed">
-                Empower Africa's small and growing businesses with accessible technology 
-                that levels the playing field.
-              </p>
-            </div>
+          <h2 className="text-3xl font-bold mb-6">My Design Philosophy</h2>
+          <div className="max-w-2xl text-c4 leading-relaxed">
+            <p className="mb-4">I believe design should be simple, intentional, and user-focused. Every design decision should have a reason — whether it’s a color choice, layout, or interaction. I aim to create experiences that feel natural, efficient, and meaningful.</p>
+            <p>Design choices should be backed by research and logic; usability and clarity are the highest priorities in my process.</p>
           </div>
         </div>
       </section>
 
-      {/* Why Minimal */}
+      {/* Why Work With Me */}
       <section className="section-padding">
         <div className="container-narrow">
           <div className="max-w-2xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-c1">Why minimal tech matters</h2>
+            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-c1">Why Work With Me</h2>
             <div className="space-y-6 text-c4 leading-relaxed">
-              <p>
-                In a world overflowing with bloated software and unnecessary features, we take 
-                the opposite approach. Every line of code we write serves a purpose.
-              </p>
-              <p>
-                Minimal doesn't mean lacking it means focused. It means faster load times, 
-                easier maintenance, lower costs, and better user experiences.
-              </p>
-              <p>
-                We believe that the best technology is the kind you don't have to think about. 
-                It just works, seamlessly and reliably.
-              </p>
+              <ul className="list-disc list-inside text-left inline-block">
+                <li><strong>Strong user-centered mindset</strong></li>
+                <li><strong>Clean and modern design style</strong></li>
+                <li><strong>Attention to detail</strong></li>
+                <li><strong>Clear communication</strong></li>
+                <li><strong>Continuous learning and improvement</strong></li>
+                <li><strong>Designs backed by logic, not guesswork</strong></li>
+              </ul>
             </div>
           </div>
         </div>

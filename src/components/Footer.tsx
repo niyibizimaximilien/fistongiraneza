@@ -11,10 +11,10 @@ const Footer = () => {
               <div className="w-6 h-6 rounded-full bg-c1 flex items-center justify-center ring-c2">
                 <div className="w-[1px] h-3 bg-white rotate-45" />
               </div>
-              <span className="font-syne font-bold tracking-tight text-c1">NebulaCore</span>
+              <span className="font-syne font-bold tracking-tight text-c1">Fiston Giraneza</span>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">
-              Clean tech solutions for businesses that want speed over noise.
+              UI/UX Designer | Industrial Design Student
             </p>
           </div>
 
@@ -47,7 +47,9 @@ const Footer = () => {
 
         <div className="mt-12 pt-8 border-t border-border">
           <p className="text-sm text-muted-foreground text-center">
-            © {new Date().getFullYear()} NebulaCore. All rights reserved.
+            © 2026 — Designed by Fiston Giraneza
+            <br />
+            UI/UX Designer | Industrial Design Student
           </p>
         </div>
       </div>

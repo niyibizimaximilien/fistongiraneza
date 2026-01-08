@@ -3,34 +3,24 @@ import Layout from "@/components/Layout";
 
 const services = [
   {
+    icon: Palette,
+    title: "UI Design",
+    description: "I design clean, modern interfaces that communicate clearly and look professional. Focus on layout, typography, color balance, and consistency.",
+  },
+  {
     icon: Globe,
-    title: "Website Development",
-    description: "Custom websites built for speed, clarity, and conversion. From landing pages to full-scale web applications.",
+    title: "UX Design",
+    description: "Design with users in mind: journeys, interaction flows, accessibility, and clarity to make products easy to use.",
   },
   {
     icon: Smartphone,
-    title: "Mobile App Design",
-    description: "Intuitive mobile app interfaces that users love. Clean, functional designs for iOS and Android.",
+    title: "Web & Mobile App Design",
+    description: "Responsive experiences that feel native on each platform, ensuring consistency across devices.",
   },
   {
     icon: Zap,
-    title: "System Automation",
-    description: "Automate repetitive tasks with Google Scripts, custom dashboards, and workflow integrations.",
-  },
-  {
-    icon: Palette,
-    title: "UI/UX Design",
-    description: "User-centered design that balances aesthetics with functionality. Clean interfaces that convert.",
-  },
-  {
-    icon: Code,
-    title: "API Development",
-    description: "Robust, well-documented APIs that power your applications and enable seamless integrations.",
-  },
-  {
-    icon: Settings,
-    title: "Tech Consulting",
-    description: "Strategic guidance on technology choices, architecture decisions, and digital transformation.",
+    title: "Wireframing & Prototyping",
+    description: "Low-fidelity wireframes and interactive prototypes to test concepts early and refine before development.",
   },
 ];
 
@@ -42,14 +32,13 @@ const Services = () => {
         <div className="container-narrow">
           <div className="max-w-2xl">
             <p className="text-sm font-medium text-muted-foreground mb-4 opacity-0 animate-fade-up">
-              Our Services
+              What I Do
             </p>
             <h1 className="text-4xl md:text-5xl font-bold mb-6 opacity-0 animate-fade-up" style={{ animationDelay: "50ms" }}>
-              What we build
+              Services I offer
             </h1>
             <p className="text-lg text-muted-foreground opacity-0 animate-fade-up" style={{ animationDelay: "100ms" }}>
-              Simple, efficient digital solutions tailored to your business needs. 
-              No fluff, just tools that work.
+              UI and UX design services focused on clarity, usability, and thoughtful interactions.
             </p>
           </div>
         </div>
@@ -80,10 +69,12 @@ const Services = () => {
           <h2 className="text-3xl font-bold mb-12 text-center">How we work</h2>
           <div className="grid md:grid-cols-4 gap-8">
             {[
-              { step: "01", title: "Discovery", description: "Understand your needs and goals" },
-              { step: "02", title: "Design", description: "Create clean, functional designs" },
-              { step: "03", title: "Build", description: "Develop with precision and care" },
-              { step: "04", title: "Launch", description: "Deploy and support your solution" },
+              { step: "01", title: "Understanding the Problem", description: "Define the problem and project goals; put the user's needs first." },
+              { step: "02", title: "Research", description: "Analyze users, competitors, and patterns to find insights." },
+              { step: "03", title: "Wireframing", description: "Low-fidelity wireframes to structure and test ideas quickly." },
+              { step: "04", title: "UI Design", description: "High-fidelity interfaces with attention to detail and consistency." },
+              { step: "05", title: "Prototyping", description: "Interactive prototypes to simulate real user interactions." },
+              { step: "06", title: "Testing & Iteration", description: "Review, test, and refine designs based on feedback and usability." },
             ].map((item, index) => (
               <div 
                 key={item.step} 

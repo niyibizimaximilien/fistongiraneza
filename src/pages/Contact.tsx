@@ -33,13 +33,13 @@ const Contact = () => {
         <div className="container-narrow">
           <div className="max-w-2xl">
             <p className="text-sm font-medium text-muted-foreground mb-4 opacity-0 animate-fade-up">
-              Contact
+              Let’s Work Together
             </p>
             <h1 className="text-4xl md:text-5xl font-bold mb-6 opacity-0 animate-fade-up" style={{ animationDelay: "50ms" }}>
-              Let's build something together
+              Let’s Work Together
             </h1>
             <p className="text-lg text-muted-foreground opacity-0 animate-fade-up" style={{ animationDelay: "100ms" }}>
-              Have a project in mind? Reach out and let's discuss how we can help.
+              I’m open to collaborations, internships, and design projects. If you have an idea or a problem to solve, let’s talk.
             </p>
           </div>
         </div>
@@ -122,7 +122,7 @@ const Contact = () => {
                 <h3 className="text-xl font-semibold mb-6">Other ways to reach us</h3>
                 <div className="space-y-4">
                   <a
-                    href="niyibizimaximilien@gmail.com"
+                    href="mailto:niyibizimaximilien@gmail.com"
                     className="flex items-center gap-4 p-4 border border-border rounded-lg hover:bg-secondary/50 transition-colors"
                   >
                     <div className="w-10 h-10 rounded-full bg-foreground text-background flex items-center justify-center">

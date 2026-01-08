@@ -44,37 +44,33 @@ const Index = () => {
                 className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-border bg-background/80 backdrop-blur-sm opacity-0 animate-fade-up"
               >
                   <Sparkles className="w-4 h-4 text-c1" />
-                <span className="text-sm font-medium text-c1">Clean Tech Studio</span>
+                <span className="text-sm font-medium text-c1">UI/UX Designer</span>
               </div>
 
               <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-[1.1] opacity-0 animate-fade-up" style={{ animationDelay: "100ms" }}>
-                Build smarter.
-                <br />
-                <span className="relative">
-                  <span className="gradient-c-text">Scale faster.</span>
-                  <svg className="absolute -bottom-2 left-0 w-full" viewBox="0 0 300 12" fill="none">
-                    <path d="M2 10C50 4 150 2 298 6" stroke="currentColor" strokeWidth="3" strokeLinecap="round" className="opacity-20" />
-                  </svg>
-                </span>
+                I design digital experiences that are clear, useful, and human-centered.
               </h1>
               <p
                 className="text-lg md:text-xl text-c4 max-w-xl opacity-0 animate-fade-up"
                 style={{ animationDelay: "200ms" }}
               >
-                Clean tech solutions for businesses that want speed over noise.
+                I’m Fiston Giraneza, a UI/UX Designer and Industrial Design student at the University of Rwanda, blending design thinking, usability, and aesthetics to create meaningful digital products.
+              </p>
+              <p className="text-base text-muted-foreground max-w-xl opacity-0 animate-fade-up" style={{ animationDelay: "250ms" }}>
+                I focus on solving real problems through research-driven design and clean interfaces.
               </p>
               <div
                 className="flex flex-col sm:flex-row gap-4 opacity-0 animate-fade-up"
                 style={{ animationDelay: "300ms" }}
               >
                 <Button asChild size="lg" variant="brand" className="group">
-                  <Link to="/contact">
-                    Get Started
+                  <Link to="/projects">
+                    Explore My Work
                     <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
                   </Link>
                 </Button>
                 <Button asChild variant="outline" size="lg">
-                  <Link to="/projects">View Projects</Link>
+                  <Link to="/contact">Let’s Collaborate</Link>
                 </Button>
               </div>
             </div>
@@ -91,14 +87,14 @@ const Index = () => {
                 <div className="relative w-48 h-48 md:w-56 md:h-56 rounded-full overflow-hidden border-2 border-border shadow-2xl">
                   <img
                     src={founderAvatar}
-                    alt="Maximilien Niyibizi"
+                    alt="Fiston Giraneza"
                     className="w-full h-full object-cover"
                   />
                 </div>
 
                 {/* Floating badge */}
                 <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 px-4 py-2 bg-background border border-border rounded-full shadow-lg">
-                  <p className="text-sm font-medium whitespace-nowrap text-c1">Maximilien Niyibizi</p>
+                  <p className="text-sm font-medium whitespace-nowrap text-c1">Fiston Giraneza</p>
                 </div>
               </div>
             </div>
@@ -111,10 +107,10 @@ const Index = () => {
         <div className="container-narrow">
           <div className="mb-12">
             <p className="text-sm font-medium text-c1 mb-2">
-              What we do
+              What I Do
             </p>
             <h2 className="text-3xl md:text-4xl font-bold text-c1">
-              Simple solutions, real results.
+              Designing clear, human-centered digital experiences.
             </h2>
           </div>
 
@@ -157,15 +153,13 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-6">
               <h2 className="text-3xl md:text-4xl font-bold">
-                We cut the noise and deliver products that just work.
+                I design products that feel natural and useful.
               </h2>
               <p className="text-c4 leading-relaxed">
-                NebulaCore is a modern tech studio focused on crafting simple,
-                efficient digital solutions. Fast, responsive, and scalable — no
-                clutter, no over-engineered features.
+                My work focuses on system thinking, usability, and visual clarity — turning ideas into thoughtful, user-centered solutions.
               </p>
               <Button asChild variant="outline">
-                <Link to="/about">Learn More About Us</Link>
+                <Link to="/about">About Me</Link>
               </Button>
             </div>
             <div className="flex justify-center">
@@ -192,10 +186,10 @@ const Index = () => {
         <div className="container-narrow">
           <div className="text-center mb-12">
             <p className="text-sm font-medium text-c1 mb-2 tracking-wider uppercase">
-              Meet the Founder
+              About Me
             </p>
             <h2 className="text-3xl md:text-4xl font-bold">
-              The vision behind NebulaCore
+              Fiston Giraneza — UI/UX Designer
             </h2>
           </div>
           <FounderCard />
@@ -214,14 +208,14 @@ const Index = () => {
         
         <div className="container-narrow text-center relative z-10">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
-            Ready to build something great?
+            Let's Work Together
           </h2>
           <p className="text-white/80 mb-8 max-w-md mx-auto">
-            Let's create clean, efficient digital solutions for your business.
+            I’m open to collaborations, internships, and design projects. If you have an idea or a problem to solve, let’s talk.
           </p>
           <Button asChild size="lg" variant="brand" className="group">
             <Link to="/contact">
-              Start a Project
+              Let’s Collaborate
               <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
             </Link>
           </Button>

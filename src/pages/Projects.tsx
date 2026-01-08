@@ -56,13 +56,13 @@ const Projects = () => {
         <div className="container-narrow relative z-10">
           <div className="max-w-2xl">
             <p className="text-sm font-medium text-muted-foreground mb-4 tracking-wider uppercase opacity-0 animate-fade-up">
-              Our Work
+              Selected Projects
             </p>
             <h1 className="text-4xl md:text-5xl font-bold mb-6 opacity-0 animate-fade-up" style={{ animationDelay: "50ms" }}>
-              Projects that speak for themselves
+              Selected Projects
             </h1>
             <p className="text-lg text-muted-foreground opacity-0 animate-fade-up" style={{ animationDelay: "100ms" }}>
-              A selection of our recent work. Clean designs, functional builds, happy clients.
+              For each project, use this structure: Project Title, Project Type, Role, Overview, The Problem, The Solution, Design Process, Outcome — explain clearly what you did and why.
             </p>
           </div>
         </div>
