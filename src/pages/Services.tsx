@@ -66,7 +66,7 @@ const Services = () => {
       {/* Process */}
       <section className="section-padding bg-secondary/50">
         <div className="container-narrow">
-          <h2 className="text-3xl font-bold mb-12 text-center">How we work</h2>
+          <h2 className="text-3xl font-bold mb-12 text-center">My Design Process</h2>
           <div className="grid md:grid-cols-4 gap-8">
             {[
               { step: "01", title: "Understanding the Problem", description: "Define the problem and project goals; put the user's needs first." },

@@ -19,7 +19,7 @@ const Contact = () => {
     
     toast({
       title: "Message sent!",
-      description: "We'll get back to you as soon as possible.",
+      description: "I'll get back to you as soon as possible.",
     });
     
     setIsSubmitting(false);
@@ -119,7 +119,7 @@ const Contact = () => {
             {/* Contact Info */}
             <div className="space-y-8 opacity-0 animate-fade-up" style={{ animationDelay: "200ms" }}>
               <div>
-                <h3 className="text-xl font-semibold mb-6">Other ways to reach us</h3>
+                <h3 className="text-xl font-semibold mb-6">Other ways to reach me</h3>
                 <div className="space-y-4">
                   <a
                     href="mailto:niyibizimaximilien@gmail.com"
@@ -158,7 +158,7 @@ const Contact = () => {
                     </div>
                     <div>
                       <p className="font-medium">WhatsApp</p>
-                      <p className="text-sm text-muted-foreground">Chat with us directly</p>
+                      <p className="text-sm text-muted-foreground">Chat with me directly</p>
                     </div>
                   </a>
                 </div>
@@ -167,7 +167,7 @@ const Contact = () => {
               <div className="p-6 bg-secondary/50 rounded-lg">
                 <h4 className="font-semibold mb-2">Response time</h4>
                 <p className="text-sm text-muted-foreground">
-                  We typically respond within 24 hours during business days.
+                  I typically respond within 24 hours during business days.
                 </p>
               </div>
             </div>

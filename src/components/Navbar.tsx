@@ -26,7 +26,7 @@ const Navbar = () => {
               <div className="w-[2px] h-5 bg-white rotate-45" />
             </div>
             <span className="font-syne font-bold text-lg tracking-tight text-c1">
-              NebulaCore
+              Fiston Giraneza
             </span>
           </Link>
 

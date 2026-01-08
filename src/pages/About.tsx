@@ -66,7 +66,7 @@ const About = () => {
           <h2 className="text-3xl font-bold mb-12 text-center">Our Values</h2>
           <div className="grid md:grid-cols-3 gap-8">
             {[
-              { title: "Simplicity", description: "Less is more. We strip away the unnecessary." },
+              { title: "Simplicity", description: "Less is more. I strip away the unnecessary." },
               { title: "Speed", description: "Fast delivery without compromising quality." },
               { title: "Clarity", description: "Clear communication, transparent processes." },
             ].map((value, index) => (

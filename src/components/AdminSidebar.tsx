@@ -36,7 +36,7 @@ export function AdminSidebar() {
       <SidebarContent>
         <SidebarGroup>
           <SidebarGroupLabel className="text-lg font-bold px-4 py-6">
-            NebulaCore Admin
+            Fiston Giraneza Admin
           </SidebarGroupLabel>
           <SidebarGroupContent>
             <SidebarMenu>

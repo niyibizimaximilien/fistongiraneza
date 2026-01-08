@@ -9,9 +9,9 @@ import FloatingShapes from "@/components/FloatingShapes";
 
 const team = [
   {
-    name: "Maximilien Niyibizi",
-    role: "Founder & CEO",
-    bio: "Building products that scale — technical lead and founder.",
+    name: "Fiston Giraneza",
+    role: "UI/UX Designer",
+    bio: "UI/UX Designer and Industrial Design student — I design clear, useful experiences.",
     avatar: founderAvatar,
     codes: {
       github: "https://github.com/niyibizimaximilien",
@@ -42,10 +42,10 @@ const Team = () => {
         <div className="container-narrow relative z-10">
           <div className="mb-12 text-center">
             <p className="text-sm font-medium text-muted-foreground mb-2 tracking-wider uppercase">
-              Our Team
+              Collaborators
             </p>
             <h1 className="text-3xl md:text-5xl font-bold">
-              People who build NebulaCore
+              People I work with
             </h1>
           </div>
 
