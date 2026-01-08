@@ -8,10 +8,10 @@ const Footer = () => {
           {/* Brand */}
           <div className="space-y-4">
             <div className="flex items-center gap-2">
-              <div className="w-6 h-6 rounded-full bg-brand-700 flex items-center justify-center">
+              <div className="w-6 h-6 rounded-full bg-c1 flex items-center justify-center ring-c2">
                 <div className="w-[1px] h-3 bg-white rotate-45" />
               </div>
-              <span className="font-syne font-bold tracking-tight text-brand-700">NebulaCore</span>
+              <span className="font-syne font-bold tracking-tight text-c1">NebulaCore</span>
             </div>
             <p className="text-sm text-muted-foreground leading-relaxed">
               Clean tech solutions for businesses that want speed over noise.

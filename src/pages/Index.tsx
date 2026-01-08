@@ -43,22 +43,22 @@ const Index = () => {
               <div 
                 className="inline-flex items-center gap-2 px-4 py-2 rounded-full border border-border bg-background/80 backdrop-blur-sm opacity-0 animate-fade-up"
               >
-                  <Sparkles className="w-4 h-4 text-brand-700" />
-                <span className="text-sm font-medium">Clean Tech Studio</span>
+                  <Sparkles className="w-4 h-4 text-c1" />
+                <span className="text-sm font-medium text-c1">Clean Tech Studio</span>
               </div>
 
               <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold leading-[1.1] opacity-0 animate-fade-up" style={{ animationDelay: "100ms" }}>
                 Build smarter.
                 <br />
                 <span className="relative">
-                  <span className="gradient-brand-text">Scale faster.</span>
+                  <span className="gradient-c-text">Scale faster.</span>
                   <svg className="absolute -bottom-2 left-0 w-full" viewBox="0 0 300 12" fill="none">
                     <path d="M2 10C50 4 150 2 298 6" stroke="currentColor" strokeWidth="3" strokeLinecap="round" className="opacity-20" />
                   </svg>
                 </span>
               </h1>
               <p
-                className="text-lg md:text-xl text-muted-foreground max-w-xl opacity-0 animate-fade-up"
+                className="text-lg md:text-xl text-c4 max-w-xl opacity-0 animate-fade-up"
                 style={{ animationDelay: "200ms" }}
               >
                 Clean tech solutions for businesses that want speed over noise.
@@ -98,7 +98,7 @@ const Index = () => {
 
                 {/* Floating badge */}
                 <div className="absolute -bottom-2 left-1/2 -translate-x-1/2 px-4 py-2 bg-background border border-border rounded-full shadow-lg">
-                  <p className="text-sm font-medium whitespace-nowrap">Maximilien Niyibizi</p>
+                  <p className="text-sm font-medium whitespace-nowrap text-c1">Maximilien Niyibizi</p>
                 </div>
               </div>
             </div>
@@ -110,10 +110,10 @@ const Index = () => {
       <section className="section-padding bg-secondary/50 relative">
         <div className="container-narrow">
           <div className="mb-12">
-            <p className="text-sm font-medium text-muted-foreground mb-2">
+            <p className="text-sm font-medium text-c1 mb-2">
               What we do
             </p>
-            <h2 className="text-3xl md:text-4xl font-bold">
+            <h2 className="text-3xl md:text-4xl font-bold text-c1">
               Simple solutions, real results.
             </h2>
           </div>
@@ -125,14 +125,14 @@ const Index = () => {
                 className="group p-6 bg-background border border-border rounded-xl hover-lift hover-glow opacity-0 animate-fade-up cursor-pointer"
                 style={{ animationDelay: `${index * 100 + 300}ms` }}
               >
-                <div className="w-12 h-12 rounded-xl bg-brand-50 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
+                <div className="w-12 h-12 rounded-xl bg-c3 flex items-center justify-center mb-4 group-hover:scale-110 transition-transform">
                   <service.icon
-                    className="h-6 w-6 text-brand-700"
+                    className="h-6 w-6 text-c1"
                     strokeWidth={1.5}
                   />
                 </div>
-                <h3 className="text-lg font-semibold mb-2 text-brand-700">{service.title}</h3>
-                <p className="text-sm text-muted-foreground">
+                <h3 className="text-lg font-semibold mb-2 text-c1">{service.title}</h3>
+                <p className="text-sm text-c4">
                   {service.description}
                 </p>
               </div>
@@ -142,7 +142,7 @@ const Index = () => {
           <div className="mt-10 text-center">
             <Link
               to="/services"
-              className="inline-flex items-center text-sm font-medium link-underline"
+              className="inline-flex items-center text-sm font-medium link-underline text-c1"
             >
               View all services
               <ArrowRight className="ml-2 h-4 w-4" />
@@ -159,7 +159,7 @@ const Index = () => {
               <h2 className="text-3xl md:text-4xl font-bold">
                 We cut the noise and deliver products that just work.
               </h2>
-              <p className="text-muted-foreground leading-relaxed">
+              <p className="text-c4 leading-relaxed">
                 NebulaCore is a modern tech studio focused on crafting simple,
                 efficient digital solutions. Fast, responsive, and scalable — no
                 clutter, no over-engineered features.
@@ -172,14 +172,14 @@ const Index = () => {
               <div className="relative">
                 <div className="w-64 h-64 rounded-full border border-border flex items-center justify-center animate-morph">
                   <div className="w-48 h-48 rounded-full border border-border flex items-center justify-center">
-                    <div className="w-32 h-32 rounded-full bg-foreground flex items-center justify-center shadow-2xl">
-                      <div className="w-[2px] h-16 bg-background rotate-45" />
+                    <div className="w-32 h-32 rounded-full bg-c4 flex items-center justify-center shadow-2xl">
+                      <div className="w-[2px] h-16 bg-c3 rotate-45" />
                     </div>
                   </div>
                 </div>
                 {/* Orbiting dot */}
                 <div className="absolute inset-0 animate-rotate-slow">
-                  <div className="absolute top-0 left-1/2 -translate-x-1/2 w-3 h-3 rounded-full bg-foreground" />
+                  <div className="absolute top-0 left-1/2 -translate-x-1/2 w-3 h-3 rounded-full bg-c4" />
                 </div>
               </div>
             </div>
@@ -191,7 +191,7 @@ const Index = () => {
       <section className="section-padding bg-secondary/30">
         <div className="container-narrow">
           <div className="text-center mb-12">
-            <p className="text-sm font-medium text-muted-foreground mb-2 tracking-wider uppercase">
+            <p className="text-sm font-medium text-c1 mb-2 tracking-wider uppercase">
               Meet the Founder
             </p>
             <h2 className="text-3xl md:text-4xl font-bold">

@@ -22,10 +22,10 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2 group">
-            <div className="w-8 h-8 rounded-full bg-brand-700 relative flex items-center justify-center">
+            <div className="w-8 h-8 rounded-full bg-c1 ring-c2 relative flex items-center justify-center">
               <div className="w-[2px] h-5 bg-white rotate-45" />
             </div>
-            <span className="font-syne font-bold text-lg tracking-tight text-brand-700">
+            <span className="font-syne font-bold text-lg tracking-tight text-c1">
               NebulaCore
             </span>
           </Link>
