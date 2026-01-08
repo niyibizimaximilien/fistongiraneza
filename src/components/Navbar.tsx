@@ -42,6 +42,12 @@ const Navbar = () => {
                       : "text-muted-foreground hover:text-mint-700"
                   }`}
                 >
+                  {link.name}
+                </Link>
+              </li>
+            ))}
+          </ul>
+
           {/* Theme Toggle & Mobile Menu */}
           <div className="flex items-center gap-2">
             <ThemeToggle />
