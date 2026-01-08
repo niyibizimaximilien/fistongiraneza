@@ -40,7 +40,8 @@ const Navbar = () => {
                     location.pathname === link.path
                       ? "text-mint-700"
                       : "text-muted-foreground hover:text-mint-700"
-
+                  }`}
+                >
           {/* Theme Toggle & Mobile Menu */}
           <div className="flex items-center gap-2">
             <ThemeToggle />
