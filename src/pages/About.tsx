@@ -8,13 +8,13 @@ const About = () => {
       <section className="section-padding">
         <div className="container-narrow">
           <div className="max-w-3xl">
-            <p className="text-sm font-medium text-muted-foreground mb-4 opacity-0 animate-fade-up">
+            <p className="text-sm font-medium text-c1 mb-4 opacity-0 animate-fade-up">
               About Us
             </p>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 opacity-0 animate-fade-up" style={{ animationDelay: "50ms" }}>
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight mb-6 opacity-0 animate-fade-up gradient-c-text" style={{ animationDelay: "50ms" }}>
               We believe in the power of simplicity.
             </h1>
-            <p className="text-lg text-muted-foreground leading-relaxed opacity-0 animate-fade-up" style={{ animationDelay: "100ms" }}>
+            <p className="text-lg text-c4 leading-relaxed opacity-0 animate-fade-up" style={{ animationDelay: "100ms" }}>
               NebulaCore is a modern tech studio focused on crafting simple, efficient digital 
               solutions. We cut the noise and deliver products that just work fast, responsive, 
               and scalable. No clutter, no over-engineered features, just clean tech for everyday 
@@ -29,22 +29,22 @@ const About = () => {
         <div className="container-narrow">
           <div className="grid md:grid-cols-2 gap-12">
             <div className="space-y-4 opacity-0 animate-fade-up" style={{ animationDelay: "150ms" }}>
-              <div className="w-12 h-12 rounded-full bg-foreground text-background flex items-center justify-center">
+              <div className="w-12 h-12 rounded-full bg-c1 text-c3 flex items-center justify-center ring-c2">
                 <Target className="h-5 w-5" />
               </div>
-              <h2 className="text-2xl font-bold">Our Mission</h2>
-              <p className="text-muted-foreground leading-relaxed">
+              <h2 className="text-2xl font-bold text-c1">Our Mission</h2>
+              <p className="text-c4 leading-relaxed">
                 To simplify tech for businesses by delivering clean, efficient digital tools 
                 that empower growth without the complexity.
               </p>
             </div>
 
             <div className="space-y-4 opacity-0 animate-fade-up" style={{ animationDelay: "200ms" }}>
-              <div className="w-12 h-12 rounded-full bg-foreground text-background flex items-center justify-center">
+              <div className="w-12 h-12 rounded-full bg-c1 text-c3 flex items-center justify-center ring-c2">
                 <Eye className="h-5 w-5" />
               </div>
-              <h2 className="text-2xl font-bold">Our Vision</h2>
-              <p className="text-muted-foreground leading-relaxed">
+              <h2 className="text-2xl font-bold text-c1">Our Vision</h2>
+              <p className="text-c4 leading-relaxed">
                 Empower Africa's small and growing businesses with accessible technology 
                 that levels the playing field.
               </p>
@@ -57,8 +57,8 @@ const About = () => {
       <section className="section-padding">
         <div className="container-narrow">
           <div className="max-w-2xl mx-auto text-center">
-            <h2 className="text-3xl md:text-4xl font-bold mb-6">Why minimal tech matters</h2>
-            <div className="space-y-6 text-muted-foreground leading-relaxed">
+            <h2 className="text-3xl md:text-4xl font-bold mb-6 text-c1">Why minimal tech matters</h2>
+            <div className="space-y-6 text-c4 leading-relaxed">
               <p>
                 In a world overflowing with bloated software and unnecessary features, we take 
                 the opposite approach. Every line of code we write serves a purpose.
@@ -91,8 +91,8 @@ const About = () => {
                 className="text-center p-6 opacity-0 animate-fade-up"
                 style={{ animationDelay: `${index * 100 + 250}ms` }}
               >
-                <h3 className="text-xl font-semibold mb-3">{value.title}</h3>
-                <p className="text-sm text-muted-foreground">{value.description}</p>
+                <h3 className="text-xl font-semibold mb-3 text-c1">{value.title}</h3>
+                <p className="text-sm text-c4">{value.description}</p>
               </div>
             ))}
           </div>
